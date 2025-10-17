@@ -99,40 +99,51 @@
       <p>
         We do not chase volume. We work with intent. If you were referred mention it below. If not make your case—clarity goes a long way.
       </p>
-      <form action="https://formsubmit.co/ivyedgestrategies@gmail.com" method="POST" novalidate>
-        <label>
-          <span>Name</span>
-          <input type="text" name="name" placeholder="Your name" required>
-        </label>
-        <label>
-          <span>Email</span>
-          <input type="email" name="email" placeholder="you@example.com" required>
-        </label>
-        <label>
-          <span>Message</span>
-          <textarea name="message" placeholder="Tell us about your firm" rows="6" required></textarea>
-        </label>
+<form action="https://formsubmit.co/ivyedgestrategies@gmail.com" method="POST" novalidate accept-charset="UTF-8">
+  <label>
+    <span>Name</span>
+    <input type="text" name="name" placeholder="Your name" required autocomplete="name" spellcheck="false">
+  </label>
 
-        <!-- Spam controls -->
-        <input type="text" name="_honey" style="display:none">
-        <input type="hidden" name="_captcha" value="true">
+  <label>
+    <span>Email</span>
+    <input type="email" name="email" placeholder="you@example.com" required autocomplete="email" inputmode="email" spellcheck="false">
+  </label>
 
-        <!-- Routing -->
-        <input type="hidden" name="_next" value="https://ivyedgestrategies.com/thank-you.html">
-        <input type="hidden" name="_subject" value="New Contact Request – Ivy Edge Strategies">
-        <input type="hidden" name="_template" value="table">
+  <label>
+    <span>Message</span>
+    <textarea name="message" placeholder="Tell us about your firm" rows="6" required></textarea>
+  </label>
 
-        <button type="submit" class="btn">Submit</button>
-      </form>
-      <p class="contact-alt">
-        Or email us at <a href="mailto:ivyedgestrategies@gmail.com">ivyedgestrategies@gmail.com</a>
-      </p>
-    </section>
-  </main>
+  <!-- Optional: who referred you -->
+  <label>
+    <span>Were you referred</span>
+    <input type="text" name="referral" placeholder="Name of referrer" autocomplete="organization" spellcheck="false">
+  </label>
 
+  <!-- Spam controls -->
+  <input type="text" name="_honey" style="display:none">
+  <input type="hidden" name="_captcha" value="true">
+
+  <!-- Routing -->
+  <input type="hidden" name="_next" value="https://ivyedgestrategies.com/thank-you.html">
+  <input type="hidden" name="_subject" value="New Contact Request – Ivy Edge Strategies">
+  <input type="hidden" name="_template" value="table">
+
+  <!-- Optional: autoresponder to the sender -->
+  <!-- <input type="hidden" name="_autoresponse" value="Thanks for your note. If there is alignment we will respond."> -->
+
+  <button type="submit" class="btn">Submit</button>
+</form>
+<p class="contact-alt">
+  Or email us at <a href="mailto:ivyedgestrategies@gmail.com">ivyedgestrategies@gmail.com</a>
+</p>
+</section>
+</main>
   <footer class="site-footer">
     <p>&copy; 2025 Ivy Edge Strategies LLC · <a href="privacy.html">Privacy</a> · <a href="terms.html">Terms</a> · <a href="contact.html">Contact</a></p>
   </footer>
 </body>
 </html>
+
 
